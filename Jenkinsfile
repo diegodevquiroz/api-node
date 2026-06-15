@@ -6,6 +6,7 @@ companyPipeline(
     containerImages: [
         node: 'node:20-alpine',
     ],
+    overrides: [version: '1.0.0'],
     stages: [
         'checkout',
         'build-node',
