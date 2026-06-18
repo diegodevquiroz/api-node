@@ -1,0 +1,9 @@
+applicationType: nodejs
+environment: dev
+agentProfile: nodejs
+
+stages:
+  - checkout
+  - build-node
+  - unit-test
+
